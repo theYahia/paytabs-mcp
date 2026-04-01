@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/paytabs-mcp",
-  "version": "1.1.0",
-  "description": "MCP server for PayTabs payment gateway (MENA region)",
+  "version": "1.1.1",
+  "description": "MCP server for PayTabs — payment gateway, multi-currency (MENA)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -45,7 +45,8 @@
     "uae-api",
     "saudi-api",
     "payments",
-    "typescript"
+    "typescript",
+    "api"
   ],
   "license": "MIT",
   "repository": {
