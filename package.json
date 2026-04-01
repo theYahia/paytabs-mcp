@@ -1,12 +1,18 @@
 {
   "name": "@theyahia/paytabs-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for PayTabs payment gateway (MENA region)",
   "type": "module",
   "main": "dist/index.js",
-  "bin": { "paytabs-mcp": "dist/index.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "bin": {
+    "paytabs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -25,11 +31,27 @@
     "typescript": "^5.7.0",
     "vitest": "^3.1.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/paytabs-mcp",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "ai", "paytabs", "uae-api", "saudi-api", "payments", "typescript"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "paytabs",
+    "uae-api",
+    "saudi-api",
+    "payments",
+    "typescript"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/paytabs-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/paytabs-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/paytabs-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
